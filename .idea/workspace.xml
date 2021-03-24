@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19e71baa-78a0-4f2f-8399-11a71adb9306" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/store/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/views/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vue/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="19e71baa-78a0-4f2f-8399-11a71adb9306" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vue" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -126,6 +116,7 @@
       <workItem from="1616609081639" duration="4184000" />
       <workItem from="1616616552993" duration="179000" />
       <workItem from="1616616754963" duration="6536000" />
+      <workItem from="1616624346238" duration="292000" />
     </task>
     <servers />
   </component>
