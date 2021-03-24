@@ -1,0 +1,28 @@
+@layout('app')
+
+@section('page')
+<article>
+<h1>{{ post.title }}</h1>
+
+<p>
+	{{ post.content }}
+</p>
+</article>
+
+<hr>
+
+<ul>
+@each(comment in post.comments)
+<li>
+	{{comment.body}}
+</li>
+@endeach
+</ul>
+
+{{ inspect(flashMessages) }}
+
+<form action="{{ route('CommentsController.store', { post_id: post.id }) }}" method="post">
+  <input type="text" name="body">
+  <button type="submit">Send</button>
+</form>
+@endsection
