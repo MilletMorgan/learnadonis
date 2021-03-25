@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19e71baa-78a0-4f2f-8399-11a71adb9306" name="Default Changelist" comment="" />
+    <list default="true" id="19e71baa-78a0-4f2f-8399-11a71adb9306" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vuets/src/shims-vuex.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuets/src/store/Title.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adonis/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adonis/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adonis/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adonis/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adonis/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adonis/.idea/jsLinters/eslint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adonis/.idea/learnadonis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adonis/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/router/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/shims-vue.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/store/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/yarn.lock" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,10 +57,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/vue/src/main.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/vue/src/store/store.ts" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="ProjectId" id="1q2VHKUnFTe1fxwzUxNrhg5wwXQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,13 +82,23 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="ts.external.directory.path" value="C:\Users\mille\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\211.6556.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\Users\mille\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\211.6693.17\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.serve">
+  <component name="RunManager" selected="npm.serve (1)">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/adonis/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vue/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -82,6 +117,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="serve (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vuets/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/vue/package.json" />
       <command value="run" />
@@ -94,6 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.serve (1)" />
+        <item itemvalue="npm.dev (2)" />
         <item itemvalue="npm.serve" />
         <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev" />
@@ -117,6 +164,8 @@
       <workItem from="1616616552993" duration="179000" />
       <workItem from="1616616754963" duration="6536000" />
       <workItem from="1616624346238" duration="292000" />
+      <workItem from="1616702499284" duration="5383000" />
+      <workItem from="1616708102620" duration="2318000" />
     </task>
     <servers />
   </component>

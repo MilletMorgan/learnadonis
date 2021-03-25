@@ -1031,9 +1031,9 @@
   integrity sha512-YATxVxgRqNH6nHEIsvg6k2Boc1JHI9ZbH5iWFFv/MTkchz3b1ieGDa5T0a9RznNdI0KhVbdbWSN+KWWrQZRxTw==
 
 "@types/minimatch@*":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
-  integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.4.tgz#f0ec25dbf2f0e4b18647313ac031134ca5b24b21"
+  integrity sha512-1z8k4wzFnNjVK/tlxvrWuK5WMt6mydWWP7+zvH5eFep4oj+UkrfiJTRtjCeBXNpwaA/FYqqtb4/QS4ianFpIRA==
 
 "@types/minimist@^1.2.0":
   version "1.2.1"
@@ -1041,9 +1041,9 @@
   integrity sha512-fZQQafSREFyuZcdWFAExYjBiCL7AUCdgsk80iO0q4yihYYdcIiH28CcuPTGFgLOCC8RlW49GSQxdHwZP+I7CNg==
 
 "@types/node@*":
-  version "14.14.35"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.35.tgz#42c953a4e2b18ab931f72477e7012172f4ffa313"
-  integrity sha512-Lt+wj8NVPx0zUmUwumiVXapmaLUcAk3yPuHCFVXras9k5VT9TdhJqKqGVUQCD60OTMCl0qxJ57OiTL0Mic3Iag==
+  version "14.14.36"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.36.tgz#5637905dbb15c30a33a3c65b9ef7c20e3c85ebad"
+  integrity sha512-kjivUwDJfIjngzbhooRnOLhGYz6oRFi+L+EpMjxroDYXwDw9lHrJJ43E+dJ6KAd3V3WxWAJ/qZE9XKYHhjPOFQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -1083,10 +1083,10 @@
   resolved "https://registry.yarnpkg.com/@types/source-list-map/-/source-list-map-0.1.2.tgz#0078836063ffaf17412349bba364087e0ac02ec9"
   integrity sha512-K5K+yml8LTo9bWJI/rECfIPrGgxdpeNbj+d53lwN4QjW1MCwlkhUms+gtdzigTeUyBr09+u8BwOIY3MXvHdcsA==
 
-"@types/tapable@*":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.6.tgz#a9ca4b70a18b270ccb2bc0aaafefd1d486b7ea74"
-  integrity sha512-W+bw9ds02rAQaMvaLYxAbJ6cvguW/iJXNT6lTssS1ps6QdrMKttqEAMEG/b5CR8TZl3/L7/lH0ZV5nNR1LXikA==
+"@types/tapable@^1":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.7.tgz#545158342f949e8fd3bfd813224971ecddc3fac4"
+  integrity sha512-0VBprVqfgFD7Ehb2vd8Lh9TG3jP98gvr8rgehQqzztZNI7o8zS8Ad4jyZneKELphpuE212D8J70LnSNQSyO6bQ==
 
 "@types/uglify-js@*":
   version "3.13.0"
@@ -1096,14 +1096,14 @@
     source-map "^0.6.1"
 
 "@types/webpack-dev-server@^3.11.0":
-  version "3.11.2"
-  resolved "https://registry.yarnpkg.com/@types/webpack-dev-server/-/webpack-dev-server-3.11.2.tgz#73915a7d9e0a9b5e010a2388a46f68ab3f770ef8"
-  integrity sha512-13w1VhaghN+G1rYjkBPgN/GFRoHd9uI2fwK9cSKvLutdmZ22L9iicFEvt69by40DP2I6uNcClaGTyPY6nYhIgQ==
+  version "3.11.3"
+  resolved "https://registry.yarnpkg.com/@types/webpack-dev-server/-/webpack-dev-server-3.11.3.tgz#237e26d87651cf95490dcd356f568c8c84016177"
+  integrity sha512-p9B/QClflreKDeamKhBwuo5zqtI++wwb9QNG/CdIZUFtHvtaq0dWVgbtV7iMl4Sr4vWzEFj0rn16pgUFANjLPA==
   dependencies:
     "@types/connect-history-api-fallback" "*"
     "@types/express" "*"
     "@types/serve-static" "*"
-    "@types/webpack" "*"
+    "@types/webpack" "^4"
     http-proxy-middleware "^1.0.0"
 
 "@types/webpack-env@^1.15.2":
@@ -1120,14 +1120,14 @@
     "@types/source-list-map" "*"
     source-map "^0.7.3"
 
-"@types/webpack@*", "@types/webpack@^4.0.0":
-  version "4.41.26"
-  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.26.tgz#27a30d7d531e16489f9c7607c747be6bc1a459ef"
-  integrity sha512-7ZyTfxjCRwexh+EJFwRUM+CDB2XvgHl4vfuqf1ZKrgGvcS5BrNvPQqJh3tsZ0P6h6Aa1qClVHaJZszLPzpqHeA==
+"@types/webpack@^4", "@types/webpack@^4.0.0":
+  version "4.41.27"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.27.tgz#f47da488c8037e7f1b2dbf2714fbbacb61ec0ffc"
+  integrity sha512-wK/oi5gcHi72VMTbOaQ70VcDxSQ1uX8S2tukBK9ARuGXrYM/+u4ou73roc7trXDNmCxCoerE8zruQqX/wuHszA==
   dependencies:
     "@types/anymatch" "*"
     "@types/node" "*"
-    "@types/tapable" "*"
+    "@types/tapable" "^1"
     "@types/uglify-js" "*"
     "@types/webpack-sources" "*"
     source-map "^0.6.0"
@@ -1361,7 +1361,7 @@
   dependencies:
     "@vue/cli-shared-utils" "^4.5.12"
 
-"@vue/cli-plugin-typescript@~4.5.0":
+"@vue/cli-plugin-typescript@^4.5.12":
   version "4.5.12"
   resolved "https://registry.yarnpkg.com/@vue/cli-plugin-typescript/-/cli-plugin-typescript-4.5.12.tgz#4186974541a0305e27e769370c981b86a44c2935"
   integrity sha512-ZTsmvaLHa/DBhqXfgiGkfJfz3tGUAWkRJiAkEAGJnj6X2pj7P47x9et/dkxPej/eVyxrSCtQs7Xt3bT9cMKJ3w==
@@ -2061,7 +2061,7 @@ babel-eslint@^10.1.0:
     eslint-visitor-keys "^1.0.0"
     resolve "^1.12.0"
 
-babel-loader@^8.1.0, babel-loader@^8.2.2:
+babel-loader@^8.1.0:
   version "8.2.2"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.2.2.tgz#9363ce84c10c9a40e6c753748e1441b60c8a0b81"
   integrity sha512-JvTd0/D889PQBtUXJ2PXaKU/pjZDMtHA9V2ecm+eNRmmBCMR09a+fmpGTNwnJtFmFl5Ei7Vy47LjBb+L0wQ99g==
@@ -3536,9 +3536,9 @@ ejs@^2.6.1:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.3.649:
-  version "1.3.699"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.699.tgz#854eea9db8bc8109c409a4807bfdb200dd75a2c7"
-  integrity sha512-fjt43CPXdPYwD9ybmKbNeLwZBmCVdLY2J5fGZub7/eMPuiqQznOGNXv/wurnpXIlE7ScHnvG9Zi+H4/i6uMKmw==
+  version "1.3.700"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.700.tgz#a6999a954c698dc7da5e84c369d65432dbe895be"
+  integrity sha512-wQtaxVZzpOeCjW1CGuC5W3bYjE2jglvk076LcTautBOB9UtHztty7wNzjVsndiMcSsdUsdMy5w76w5J1U7OPTQ==
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -3655,11 +3655,6 @@ es-to-primitive@^1.2.1:
     is-callable "^1.1.4"
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
-
-es6-promise@^4.2.8:
-  version "4.2.8"
-  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
-  integrity sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w==
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -7819,16 +7814,16 @@ snapdragon@^0.8.1:
     use "^3.1.0"
 
 sockjs-client@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/sockjs-client/-/sockjs-client-1.5.0.tgz#2f8ff5d4b659e0d092f7aba0b7c386bd2aa20add"
-  integrity sha512-8Dt3BDi4FYNrCFGTL/HtwVzkARrENdwOUf1ZoW/9p3M8lZdFT35jVdrHza+qgxuG9H3/shR4cuX/X9umUrjP8Q==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/sockjs-client/-/sockjs-client-1.5.1.tgz#256908f6d5adfb94dabbdbd02c66362cca0f9ea6"
+  integrity sha512-VnVAb663fosipI/m6pqRXakEOw7nvd7TUgdr3PlR/8V2I95QIdwT8L4nMxhyU8SmDBHYXU1TOElaKOmKLfYzeQ==
   dependencies:
     debug "^3.2.6"
     eventsource "^1.0.7"
     faye-websocket "^0.11.3"
     inherits "^2.0.4"
     json3 "^3.3.3"
-    url-parse "^1.4.7"
+    url-parse "^1.5.1"
 
 sockjs@^0.3.21:
   version "0.3.21"
@@ -8643,7 +8638,7 @@ url-loader@^2.2.0:
     mime "^2.4.4"
     schema-utils "^2.5.0"
 
-url-parse@^1.4.3, url-parse@^1.4.7:
+url-parse@^1.4.3, url-parse@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz#d5fa9890af8a5e1f274a2c98376510f6425f6e3b"
   integrity sha512-HOfCOUJt7iSYzEx/UqgtwKRMC6EU91NFhsCHMv9oM03VJcVo2Qrp8T8kI9D7amFf1cu+/3CEhgb3rF9zL7k85Q==
@@ -8822,7 +8817,12 @@ vue@^3.0.0:
     "@vue/runtime-dom" "3.0.7"
     "@vue/shared" "3.0.7"
 
-vuex@^4.0.0:
+vuex-module-decorators@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vuex-module-decorators/-/vuex-module-decorators-1.0.1.tgz#d34dafb5428a3636f1c26d3d014c15fc9659ccd0"
+  integrity sha512-FLWZsXV5XAtl/bcKUyQFpnSBtpc3wK/7zSdy9oKbyp71mZd4ut5y2zSd219wWW9OG7WUOlVwac4rXFFDVnq7ug==
+
+vuex@^4.0.0-0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-4.0.0.tgz#ac877aa76a9c45368c979471e461b520d38e6cf5"
   integrity sha512-56VPujlHscP5q/e7Jlpqc40sja4vOhC4uJD1llBCWolVI8ND4+VzisDVkUMl+z5y0MpIImW6HjhNc+ZvuizgOw==
